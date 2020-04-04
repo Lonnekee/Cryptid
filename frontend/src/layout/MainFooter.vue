@@ -15,7 +15,7 @@
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, made with <md-icon>favorite</md-icon> by Lonneke.
+        {{ year }}, made with <md-icon>favorite</md-icon> by Lonneke.
       </div>
     </div>
   </footer>

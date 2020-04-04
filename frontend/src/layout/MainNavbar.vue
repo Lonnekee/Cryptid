@@ -30,7 +30,7 @@
               <md-list-item
                 href="#/"
                 >
-                All components
+                <i class="material-icons">home</i>
               </md-list-item>
 
               <md-list-item
@@ -63,6 +63,12 @@
                             <p>Landing Page</p>
                           </a>
                         </li>
+                        <li>
+                          <a href="#/examples">
+                            <i class="material-icons">help</i>
+                            <p>Material UI components</p>
+                          </a>
+                        </li>
                       </ul>
                     </drop-down>
                   </div>
@@ -72,7 +78,7 @@
               <md-list-item v-if="!loggedIn">
                 <a href="#/login">
                   <i class="material-icons">fingerprint</i>
-                  <p>Login Page</p>
+                  <p>Login</p>
                 </a>
               </md-list-item>
 
