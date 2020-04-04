@@ -1,24 +1,15 @@
-# Frontend app for Cryptid project
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# How-to's
 
-### Lints and fixes files
-```
-npm run lint
-```
+## How to insert icons
+Icons are from material.io. The names can be found on
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://material.io/resources/icons/?style=baseline
+
+To include an icon in HTML, simply use
+
+````
+<i class="material-icons">name_of_icon</i>
+````
